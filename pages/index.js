@@ -61,6 +61,12 @@ export default function Home() {
         </Flex>
       </Flex>
 
+      <Flex justifyContent={"center"}>
+      <Flex paddingTop={"100px"} marginBottom={"35px"}>
+      <Text textAlign={"center"} fontSize={"16px"} fontWeight={"400"} textColor={"#46472A"}>made with 🍑 by ahzam</Text>
+      </Flex>
+      </Flex>
+
     </div>
   )
 }
