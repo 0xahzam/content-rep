@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className='main'>
       <Flex justifyContent={"center"}>
-        <Flex marginRight={"25px"} marginTop={"144px"} flexDir={"column"} gap={"48px"}>
+        <Flex marginRight={"25px"} marginTop={"114px"} flexDir={"column"} gap={"48px"}>
 
         <Flex border = {"1px solid #909175"}  width={"385px"} height={"130px"} rounded={"7px"} alignItems={"center"}>
         <Image src="elon.jpg" alt='Elon Musk' width={"124px"} objectFit={"cover"} height={"124px"} paddingLeft={"3px"} roundedTopLeft={"5px"} roundedBottomLeft={"5px"} />
@@ -32,21 +32,21 @@ export default function Home() {
         </Flex>
 
         </Flex>
-        <Flex marginLeft={"25px"} marginTop={"144px"} flexDir={"column"} gap={"48px"}>
+        <Flex marginLeft={"25px"} marginTop={"114px"} flexDir={"column"} gap={"48px"}>
 
         <Flex border = {"1px solid #909175"}  width={"385px"} height={"130px"} rounded={"7px"} alignItems={"center"}>
-        <Image src="graham.jpg" alt='Paul Graham' width={"124px"} objectFit={"cover"} height={"124px"} paddingLeft={"3px"} roundedTopLeft={"5px"} roundedBottomLeft={"5px"} />
+        <Image src="sama.jpg" alt='Sam Altman' width={"124px"} objectFit={"cover"} height={"124px"} paddingLeft={"3px"} roundedTopLeft={"5px"} roundedBottomLeft={"5px"} />
         <Flex flexDirection={"column"} paddingLeft={"14px"}>
-          <Text fontWeight={"700"} fontStyle={"italic"} fontSize={"24px"} color={"#46472A"}>Paul Graham</Text>
-          <Text background={"#FFFFD5"} fontWeight={"500"} fontFamily={"Roboto Mono, monospace"} paddingLeft={"10px"} paddingRight={"10px"}>Essayist Pro Max</Text>
+          <Text fontWeight={"700"} fontStyle={"italic"} fontSize={"24px"} color={"#46472A"}>Sam Altman</Text>
+          <Text background={"#FFFFD5"} fontWeight={"500"} fontFamily={"Roboto Mono, monospace"} paddingLeft={"10px"} paddingRight={"10px"}>@openai</Text>
         </Flex>
         </Flex>
 
         <Flex border = {"1px solid #909175"}  width={"385px"} height={"130px"} rounded={"7px"} alignItems={"center"}>
-        <Image src="Balaji.jpg" alt="Balaji Srinivasan" width={"124px"} objectFit={"cover"} height={"124px"} paddingLeft={"3px"} roundedTopLeft={"5px"} roundedBottomLeft={"5px"} />
+        <Image src="vitalik.jpg" alt="Vitalik Buterin" width={"124px"} objectFit={"cover"} height={"124px"} paddingLeft={"3px"} roundedTopLeft={"5px"} roundedBottomLeft={"5px"} />
         <Flex flexDirection={"column"} paddingLeft={"14px"}>
-          <Text fontWeight={"700"} fontStyle={"italic"} fontSize={"24px"} color={"#46472A"}>Balaji Srinivasan</Text>
-          <Text background={"#FFFFD5"} fontWeight={"500"} paddingLeft={"10px"} paddingRight={"10px"} fontFamily={"Roboto Mono, monospace"}>tech brdr silicon silli</Text>
+          <Text fontWeight={"700"} fontStyle={"italic"} fontSize={"24px"} color={"#46472A"}>Vitalik Buterin</Text>
+          <Text background={"#FFFFD5"} fontWeight={"500"} paddingLeft={"10px"} paddingRight={"10px"} fontFamily={"Roboto Mono, monospace"}>silicon silli</Text>
         </Flex>
         </Flex>
         
@@ -63,7 +63,7 @@ export default function Home() {
 
       <Flex justifyContent={"center"}>
       <Flex paddingTop={"100px"} marginBottom={"35px"}>
-      <Text textAlign={"center"} fontSize={"16px"} fontWeight={"400"} textColor={"#46472A"}>made with 🍑 by ahzam</Text>
+      <Text textAlign={"center"} fontSize={"16px"} fontWeight={"400"} textColor={"#46472A"}>made with 🫶 by <a style={{textDecoration:"0.7px underline"}}>ahzam</a> & <a style={{textDecoration:"0.7px underline"}}>anoushka</a></Text>
       </Flex>
       </Flex>
 
